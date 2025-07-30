@@ -109,6 +109,13 @@ abbr[title] {
     margin-right: 0.1em;
 }
 
+// Style for company logo images in links
+a img {
+    height: 1em;
+    vertical-align: middle;
+    margin-right: 0.1em;
+}
+
 // Toggleable description styles
 .toggle-description {
   margin: 1rem 0;

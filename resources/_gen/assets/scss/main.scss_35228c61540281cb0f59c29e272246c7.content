@@ -851,6 +851,11 @@ abbr[title] {
   vertical-align: middle;
   margin-right: 0.1em; }
 
+a img {
+  height: 1em;
+  vertical-align: middle;
+  margin-right: 0.1em; }
+
 .toggle-description {
   margin: 1rem 0; }
   .toggle-description .toggle-trigger {

@@ -1,0 +1,5 @@
+{{ $href := .Get "href" }}
+{{ if hasSuffix $href ".pdf" }}
+  {{ $href = printf "/%s" $href | absURL }}
+{{ end }}
+<a href="{{ $href }}"{{ if .Get "target" }} target="{{ .Get "target" }}"{{ end }}{{ if .Get "download" }} download="{{ .Get "download" }}"{{ end }}{{ if .Get "rel" }} rel="{{ .Get "rel" }}"{{ end }}>{{ .Inner }}</a> 
