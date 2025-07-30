@@ -10,6 +10,12 @@ h6 {
   color: var(--accent-color) !important;
 }
 
+// Enhanced menu active state styling
+.menu__link--active {
+  font-weight: bolder !important;
+  color: var(--accent-color) !important;
+}
+
 // Style for special markdown elements like dropdowns
 // Common dropdown/expandable content selectors
 details,
@@ -83,3 +89,22 @@ abbr[title] {
   color: var(--accent-color);
   border-bottom: 1px dotted var(--accent-color);
 } 
+
+// Style for image descriptions
+.image-description {
+  font-style: italic;
+  text-align: left;
+  font-size: 0.9em;
+  color: var(--foreground-color);
+  opacity: 0.8;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+} 
+
+// Style for icons
+.icon {
+    height: 1.5em;
+    vertical-align: middle;
+    margin-right: 0.1em;
+}

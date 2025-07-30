@@ -3,7 +3,7 @@
 theme: hugo-theme-yue
 baseURL: https://dpeng817.github.io/ # Change this to your real domain name, e.g. https://my-cool-domain.org/
 defaultContentLanguage: en
-title: Yue # Shown in home page
+title: Chris DeCarolis # Shown in home page
 enableGitInfo: false # Set lastmod from git history, this may increase build time
 enableEmoji: true # Emoji list: https://gohugo.io/quick-reference/emojis/
 enableRobotsTXT: true
@@ -13,13 +13,11 @@ params:
   rssFullContent: true
   homePagerSize: 5
   sectionPagerSize: 10000 # Default: 10, set this to a large number to remove pagination
-  dateFormat: Jan 02, 2006 # See https://gohugo.io/functions/time/format/
-  author: Jane Doe # Default author, supports single value or list, used in single page
+  dateFormat: July 29, 2025 # See https://gohugo.io/functions/time/format/
+  author: Christopher DeCarolis # Default author, supports single value or list, used in single page
   footer:
     copyright:
-      yearStart: 2023 # Optional
-      yearEnd: 2024 # Optional, default value: current year
-      author: Jane Doe
+      author: Christopher DeCarolis
   images:
     # Default image used in Open Graph, see https://gohugo.io/templates/embedded/#configure-open-graph
     - favicon.ico # /static/favicon.ico
@@ -27,9 +25,11 @@ params:
 menus:
   main:
     - name: Home
-      url: /
+      pageRef: /
+      weight: 10
     - name: Contact
-      url: /contact/
+      pageRef: contact
+      weight: 20
 frontmatter:
   lastmod: ['lastmod', ':default'] # lastmod in front matter has highest precedence
 

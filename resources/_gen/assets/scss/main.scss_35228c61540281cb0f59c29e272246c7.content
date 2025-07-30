@@ -39,9 +39,9 @@ blockquote {
 :root {
   --background-color: #AEC8A4;
   --background-color1: #FEFAE0;
-  --foreground-color: #73946B;
+  --foreground-color: #5C7556;
   --foreground-color3: #D2D0A0;
-  --accent-color: #6F826A; }
+  --accent-color: #4A5A47; }
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -771,6 +771,10 @@ h5,
 h6 {
   color: var(--accent-color) !important; }
 
+.menu__link--active {
+  font-weight: bolder !important;
+  color: var(--accent-color) !important; }
+
 details,
 .dropdown,
 .expandable,
@@ -830,3 +834,18 @@ dl dd {
 abbr[title] {
   color: var(--accent-color);
   border-bottom: 1px dotted var(--accent-color); }
+
+.image-description {
+  font-style: italic;
+  text-align: left;
+  font-size: 0.9em;
+  color: var(--foreground-color);
+  opacity: 0.8;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem; }
+
+.icon {
+  height: 1.5em;
+  vertical-align: middle;
+  margin-right: 0.1em; }
