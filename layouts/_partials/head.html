@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+
+<!-- Google Fonts - Atkinson Hyperlegible -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+{{ partial "head/head-start.html" . }}
+{{ partialCached "head/scss.html" . }}
+{{ partial "head/favicon.html" . }}
+{{ partial "head/description.html" . }}
+{{ partial "opengraph.html" . }} {{/* embedded template */}}
+{{ partial "schema.html" . }} {{/* embedded template */}}
+{{ partial "head/rss_link.html" . }}
+{{ partial "head/head-end.html" . }} 

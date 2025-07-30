@@ -37,19 +37,19 @@ blockquote {
     margin-right: auto; } }
 
 :root {
-  --background-color: #fbf1c7;
-  --background-color1: #ebdbb2;
-  --foreground-color: #3c3836;
-  --foreground-color3: #665c54;
-  --accent-color: #af3a03; }
+  --background-color: #AEC8A4;
+  --background-color1: #FEFAE0;
+  --foreground-color: #73946B;
+  --foreground-color3: #D2D0A0;
+  --accent-color: #6F826A; }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-color: #282828;
-    --background-color1: #3c3836;
-    --foreground-color: #ebdbb2;
-    --foreground-color3: #bdae93;
-    --accent-color: #fe8019; } }
+    --background-color: #0A400C;
+    --background-color1: #819067;
+    --foreground-color: #B1AB86;
+    --foreground-color3: #FEFAE0;
+    --accent-color: #C8E49A; } }
 
 .body {
   background-color: var(--background-color);
@@ -654,11 +654,11 @@ pre:not(.chroma),
   background-color: var(--background-color1); }
 
 .html {
-  font-size: 18px; }
+  font-size: 14px; }
 
 .body {
-  font-family: sans-serif;
-  line-height: 1.5; }
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  line-height: 1.2; }
 
 p,
 ul,
@@ -762,3 +762,71 @@ pre {
 
 .footer {
   font-size: smaller; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--accent-color) !important; }
+
+details,
+.dropdown,
+.expandable,
+.collapsible {
+  color: var(--accent-color); }
+  details summary,
+  .dropdown summary,
+  .expandable summary,
+  .collapsible summary {
+    color: var(--accent-color);
+    font-weight: bold;
+    cursor: pointer; }
+    details summary:hover,
+    .dropdown summary:hover,
+    .expandable summary:hover,
+    .collapsible summary:hover {
+      color: var(--foreground-color); }
+
+.callout,
+.admonition,
+.note,
+.warning,
+.tip,
+.info {
+  color: var(--accent-color);
+  border-left: 4px solid var(--accent-color);
+  padding-left: 1rem;
+  margin: 1rem 0; }
+  .callout::before,
+  .admonition::before,
+  .note::before,
+  .warning::before,
+  .tip::before,
+  .info::before {
+    font-weight: bold;
+    color: var(--accent-color); }
+
+.task-list-item {
+  color: var(--accent-color); }
+  .task-list-item input[type="checkbox"] {
+    accent-color: var(--accent-color); }
+
+.footnote,
+.footnotes {
+  color: var(--accent-color); }
+  .footnote a,
+  .footnotes a {
+    color: var(--accent-color); }
+
+dl dt {
+  color: var(--accent-color);
+  font-weight: bold; }
+
+dl dd {
+  color: var(--foreground-color); }
+
+abbr[title] {
+  color: var(--accent-color);
+  border-bottom: 1px dotted var(--accent-color); }

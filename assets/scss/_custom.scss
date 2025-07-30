@@ -1,0 +1,85 @@
+// Custom styles for headers and special markdown elements
+
+// Override heading colors to use accent color instead of foreground color
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--accent-color) !important;
+}
+
+// Style for special markdown elements like dropdowns
+// Common dropdown/expandable content selectors
+details,
+.dropdown,
+.expandable,
+.collapsible {
+  color: var(--accent-color);
+  
+  summary {
+    color: var(--accent-color);
+    font-weight: bold;
+    cursor: pointer;
+    
+    &:hover {
+      color: var(--foreground-color);
+    }
+  }
+}
+
+// Style for markdown callouts/admonitions
+.callout,
+.admonition,
+.note,
+.warning,
+.tip,
+.info {
+  color: var(--accent-color);
+  border-left: 4px solid var(--accent-color);
+  padding-left: 1rem;
+  margin: 1rem 0;
+  
+  &::before {
+    font-weight: bold;
+    color: var(--accent-color);
+  }
+}
+
+// Style for markdown task lists
+.task-list-item {
+  color: var(--accent-color);
+  
+  input[type="checkbox"] {
+    accent-color: var(--accent-color);
+  }
+}
+
+// Style for markdown footnotes
+.footnote,
+.footnotes {
+  color: var(--accent-color);
+  
+  a {
+    color: var(--accent-color);
+  }
+}
+
+// Style for markdown definition lists
+dl {
+  dt {
+    color: var(--accent-color);
+    font-weight: bold;
+  }
+  
+  dd {
+    color: var(--foreground-color);
+  }
+}
+
+// Style for markdown abbreviations
+abbr[title] {
+  color: var(--accent-color);
+  border-bottom: 1px dotted var(--accent-color);
+} 

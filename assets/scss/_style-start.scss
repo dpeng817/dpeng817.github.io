@@ -1,0 +1,21 @@
+// Override theme variables here
+$body-margin-left: 16px !default;
+$body-margin-right: 16px !default;
+$font-family: 'Atkinson Hyperlegible', sans-serif !default;
+$base-font-size: 14px !default;
+$line-height: 1.2 !default;
+$body-max-width: 768px !default;
+$desktop-breakpoint: $body-max-width + $body-margin-left + $body-margin-right !default;
+
+// Color, see https://github.com/morhetz/gruvbox
+$background-color-light: #AEC8A4 !default;
+$background-color1-light: #FEFAE0 !default;
+$foreground-color-light: #73946B !default;
+$foreground-color3-light: #D2D0A0 !default;
+$accent-color-light: #6F826A !default;
+
+$background-color-dark: #0A400C !default;
+$background-color1-dark: #819067 !default;
+$foreground-color-dark: #B1AB86 !default;
+$foreground-color3-dark: #FEFAE0 !default;
+$accent-color-dark: #C8E49A !default; 
