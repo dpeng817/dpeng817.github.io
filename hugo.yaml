@@ -33,6 +33,9 @@ menus:
     - name: CV
       pageRef: cv
       weight: 30
+    - name: Reading
+      pageRef: reading
+      weight: 40
 frontmatter:
   lastmod: ['lastmod', ':default'] # lastmod in front matter has highest precedence
 

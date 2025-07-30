@@ -108,3 +108,53 @@ abbr[title] {
     vertical-align: middle;
     margin-right: 0.1em;
 }
+
+// Toggleable description styles
+.toggle-description {
+  margin: 1rem 0;
+  
+  .toggle-trigger {
+    color: var(--accent-color);
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+    &:hover {
+      color: var(--foreground-color);
+    }
+    
+    &::before {
+      content: "▶";
+      font-size: 0.8em;
+      transition: transform 0.2s ease;
+    }
+    
+    &.expanded::before {
+      transform: rotate(90deg);
+    }
+  }
+  
+  .toggle-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease, margin 0.3s ease;
+    opacity: 0;
+    margin-left: 1.5rem;
+    margin-top: 0;
+    padding-left: 1rem;
+    border-left: 2px solid var(--accent-color);
+    color: var(--foreground-color);
+    opacity: 0.8;
+    font-size: 0.95em;
+    line-height: 1.5;
+    
+    &.expanded {
+      max-height: 500px; // Adjust based on your content
+      opacity: 1;
+      margin-top: 0.5rem;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{{- $trigger := .Get "trigger" | default "Click to expand" -}}
+{{- $content := .Inner | markdownify -}}
+
+<div class="toggle-description">
+  <div class="toggle-trigger">{{ $trigger }}</div>
+  <div class="toggle-content">{{ $content }}</div>
+</div> 
