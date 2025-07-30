@@ -6,8 +6,15 @@
     <description>Recent content in Home on Chris DeCarolis</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Jan 2023 08:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CV</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;p&gt;Feel free to &lt;a href=&#34;http://localhost:1313/static/cdecarolis_resume.pdf&#34; download=&#34;cdecarolis_resume.pdf&#34;&gt;download&lt;/a&gt; my cv or &lt;a href=&#34;http://localhost:1313/static/cdecarolis_resume.pdf&#34; target=&#34;_blank&#34;&gt;view&lt;/a&gt; it.&lt;/p&gt;&#xA;</description>
+    </item>
     <item>
       <title>Contact</title>
       <link>http://localhost:1313/contact/</link>

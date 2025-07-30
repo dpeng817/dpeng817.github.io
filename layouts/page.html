@@ -1,6 +1,8 @@
 {{ define "main" }}
   {{ if ne .Title "Contact" }}
+    {{ if ne .Title "CV" }}
     <h1>{{ .Title }}</h1>
+    {{ end }}
   {{ end }}
   {{ partial "page/translation_list.html" . }}
   {{ partial "page/toc.html" . }}

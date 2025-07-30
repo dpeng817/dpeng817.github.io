@@ -30,6 +30,9 @@ menus:
     - name: Contact
       pageRef: contact
       weight: 20
+    - name: CV
+      pageRef: cv
+      weight: 30
 frontmatter:
   lastmod: ['lastmod', ':default'] # lastmod in front matter has highest precedence
 
