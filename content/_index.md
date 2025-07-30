@@ -6,7 +6,7 @@ title: Home
 
 Hi, I'm Chris. 
 
-<img src="asleep.JPG" alt="me" width="50%" />
+<img src="asleep.JPG" alt="me" width="33%" />
 <p class="image-description">napping, circa 2025</p>
 
 I'm a software engineer interested in developer tools and code aesthetics. I've done some occasional research as well. 
