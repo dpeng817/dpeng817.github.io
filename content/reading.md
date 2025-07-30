@@ -9,7 +9,7 @@ title: "Reading"
 Books/series/writings that I think are worth your time, in no particular order. Obviously opinions are my own.
 
 {{< toggle trigger="Malazan Book of the Fallen - Steven Erikson" >}}
-A ten book epic fantasy series. It's the best one out there, if you can deal with the complexity. The first book is the worst (and it's still good, especially when you compare it to the debut novel of something like Wheel of Time). Every other book varies between very good and incredible.
+A ten book epic fantasy series. It's the best one out there, if you have the time and energy to commit. The first book is the worst (and it's still good, especially when you compare it to the debut novel of something like Wheel of Time). Every other book varies between very good and incredible.
 
 Malazan demands a lot from you. It throws you into an entirely new world without any fanfare, leaving you to piece together what's going on. There's probably more characters introduced (and killed) than any other book series I've read. Each book is hundreds to thousands of pages. In return, it treats the reader with intense respect. There are no easy wins or unearned emotional payoffs. There is so much anguish, humor, life, death, *humanity* poured into these novels. It is simultaneously the most engrossing and least escapist fantasy series I can imagine. Please go read it.
 {{< /toggle >}}
