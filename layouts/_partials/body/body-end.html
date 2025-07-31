@@ -1,2 +1,3 @@
 {{- /* Custom scripts */ -}}
-<script src="{{ "js/toggle-description.js" | relURL }}"></script> 
+{{ $js := resources.Get "js/toggle-description.js" }}
+<script src="{{ $js.Permalink }}"></script>
