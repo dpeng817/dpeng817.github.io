@@ -13,7 +13,7 @@ params:
   rssFullContent: true
   homePagerSize: 5
   sectionPagerSize: 10000 # Default: 10, set this to a large number to remove pagination
-  dateFormat: July 29, 2025 # See https://gohugo.io/functions/time/format/
+  dateFormat: "January 2, 2006" # See https://gohugo.io/functions/time/format/
   author: Christopher DeCarolis # Default author, supports single value or list, used in single page
   footer:
     copyright:
@@ -27,6 +27,9 @@ menus:
     - name: Home
       pageRef: /
       weight: 10
+    - name: Posts
+      pageRef: posts
+      weight: 15
     - name: Contact
       pageRef: contact
       weight: 20
